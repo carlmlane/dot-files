@@ -10,6 +10,13 @@ cp colors/* ~/.vim/colors
 # copy vimrc file to home directory
 cp .vimrc ~/
 
+# install tmux 2
+sudo apt-get update
+sudo apt-get install -y python-software-properties software-properties-common
+sudo add-apt-repository -y ppa:pi-rho/dev
+sudo apt-get update
+sudo apt-get install -y tmux
+
 # install tmux package manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 # install tmux.conf to home directory
