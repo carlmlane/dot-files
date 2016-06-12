@@ -3,6 +3,10 @@
 
 # copy and install vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+# make vim colors directory
+mkdir ~/.vim/colors
+# copy colors to color directory
+cp colors/* ~/.vim/colors
 # copy vimrc file to home directory
 cp .vimrc ~/
 
