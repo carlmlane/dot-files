@@ -12,6 +12,7 @@ cp .vimrc ~/
 
 # install tmux 2
 sudo apt-get update
+sudo apt-get install -y make
 sudo apt-get install -y libevent-dev
 sudo apt-get install -y ncurses-dev
 sudo apt-get install -y python-software-properties software-properties-common
