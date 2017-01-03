@@ -22,8 +22,10 @@ sudo ln -s /home/$(whoami)tmux-2.2/tmux /usr/local/bin/tmux
 
 # install tmux package manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # install tmux.conf to home directory
+cd ..
 cp .tmux.conf ~/
 # source tmux.conf
-tmux source ~/.tmux.conf
+# tmux source ~/.tmux.conf
 
